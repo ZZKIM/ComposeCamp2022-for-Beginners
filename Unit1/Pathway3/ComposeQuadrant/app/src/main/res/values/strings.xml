@@ -9,4 +9,12 @@
     <string name="third_description">A layout composable that places its children in a horizontal sequence.</string>
     <string name="fourth_title">Column composable</string>
     <string name="fourth_description">A layout composable that places its children in a vertical sequence.</string>
+    <string name="text_text">Text composable</string>
+    <string name="text_des_text">Displays text and follows Material Design guidelines.</string>
+    <string name="image_text">Image composable</string>
+    <string name="image_des_text">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="row_text">Row composable</string>
+    <string name="row_des_text">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="col_text">Column composable</string>
+    <string name="col_des_text">A layout composable that places its children in a vertical sequence.</string>
 </resources>

@@ -38,28 +38,28 @@ fun ComposeQuadrantApp() {
     Column(Modifier.fillMaxWidth()) {
         Row(Modifier.weight(1f)) {
             ComposableInfoCard(
-                title = "All tasks completed",
-                description = "Nice work!",
+                title = stringResource(R.string.text_text),
+                description = stringResource(R.string.text_des_text),
                 backgroundColor = Color.Green,
                 modifier =  Modifier.weight(1f)
                 )
             ComposableInfoCard(
-                title = "All tasks completed",
-                description = "Nice work!",
+                title = stringResource(R.string.image_text),
+                description = stringResource(R.string.image_des_text),
                 backgroundColor = Color.Yellow,
                 modifier =  Modifier.weight(1f)
             )
         }
         Row(Modifier.weight(1f)) {
             ComposableInfoCard(
-                title = "All tasks completed",
-                description = "Nice work!",
+                title = stringResource(R.string.row_text),
+                description = stringResource(R.string.row_des_text),
                 backgroundColor = Color.Cyan,
                 modifier =  Modifier.weight(1f)
             )
             ComposableInfoCard(
-                title = "All tasks completed",
-                description = "Nice work!",
+                title = stringResource(R.string.col_text),
+                description = stringResource(R.string.col_des_text),
                 backgroundColor = Color.LightGray,
                 modifier =  Modifier.weight(1f)
             )
